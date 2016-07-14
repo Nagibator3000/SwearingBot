@@ -46,7 +46,7 @@ public class EasyBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "244603165:AAEfxU_SKF9R6pIYfNnBWTZ8bPiZ3uq49cc";
+        return "TOKEN";
     }
 
     private void sendMsg(Message message, String text) {
