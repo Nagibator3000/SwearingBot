@@ -24,13 +24,13 @@ public class EasyBot extends TelegramLongPollingBot {
             if (message.getText().equals("Лёха") || message.getText().equals("Юра") || message.getText().equals("Настя")) {
                 switch (message.getText()) {
                     case "Юра":
-                        sendMsg(message, "Юра - красавец");
+                        sendMsg(message, "Юра - XXX");
                         break;
                     case "Настя":
-                        sendMsg(message, "Настя - пукать мастер");
+                        sendMsg(message, "Настя - XXXX");
                         break;
                     case "Лёха":
-                        sendMsg(message, "Лёха - даун");
+                        sendMsg(message, "Лёха - XXX");
                         break;
                 }
             } else {
